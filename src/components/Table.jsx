@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState,useEffect } from "react";
 import UserService from "../services/userService";
 import User from "./User";
+import {USER_API_BASE_URL} from '../services/userService.js';
 
 const Table = ()=>{
     const navigate = useNavigate();
@@ -12,6 +13,7 @@ const Table = ()=>{
    
     useEffect(()=>{
          //fetch data from backend, and if done setLoading to false
+         console.log(USER_API_BASE_URL)
     const fetchData = async () =>{
         setLoading(true);
 

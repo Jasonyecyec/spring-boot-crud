@@ -1,5 +1,5 @@
 import axios from "axios";
-const USER_API_BASE_URL =
+export const USER_API_BASE_URL =
   "https://spring-boot-crud-backend-production.up.railway.app/api/employees";
 
 class UserService {
