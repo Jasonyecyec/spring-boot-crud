@@ -10,6 +10,5 @@ using React JS + Spring Boot + Mysql
     3. Tailwind Css
     4. Mysql
 
-The Datababase and back-end repository is hosted on https://railway.app/
-
+The Database and back-end repository are hosted on https://railway.app/
 
